@@ -1,0 +1,10 @@
+de51d2,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello,1566051698,,401
+0ca59f,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello,1566051931,,401
+f42cd7,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello,1566052042,,401
+b9f689,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLES_SUPER_ADMIN%22%5D,1566052088,,401
+4d3718,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052126,,401
+1e1c3b,127.0.0.1,GET,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052273,477b3f,200
+477b3f,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052273,,400
+edf75c,127.0.0.1,GET,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052587,b8d1fb,200
+b8d1fb,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052587,,400
+393e3d,127.0.0.1,POST,http://localhost:8000/api/login_check?email=admin%40gmail.com&password=hello&roles=%5B%22ROLE_SUPER_ADMIN%22%5D,1566052718,,200
